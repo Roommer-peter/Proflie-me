@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proflie-me</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="bg-glow"></div>
+
+    <main class="quiz-card">
+        <div class="quiz-header">
+            <div class="profile-mini">
+                <img src="https://scontent.fvte2-1.fna.fbcdn.net/v/t39.30808-6/618365533_122158862030822758_8364426083919375882_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeH2MH1dwmria9dP42Vq9_ryTyWfCuQBtH1PJZ8K5AG0fSN8-jiYBpG2ia7UbQp1bdDkktq0r7h-oFDFJu_pJdIv&_nc_ohc=RkfQvefjogQQ7kNvwEbXWmw&_nc_oc=AdqWP7mIbY_JrYIuOSBvpd3k5SyeU7tP3jAoi5D1XXYsf22z-xVs_4NEnkxC_B3-Bjc&_nc_zt=23&_nc_ht=scontent.fvte2-1.fna&_nc_gid=Wh9rt23KwGJHzNQ9rww6pA&_nc_ss=7b2a8&oh=00_AQGU0UcE-qcedgJZ8mI9VtNqPhEi-oBeIKZDvTwUs1vnoQ&oe=6A8C8E82" alt="Profile">
+                <span>P'Thong Pm</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+        </div>
+
+        <div id="quiz-box">
+            <span class="question-number" id="question-number">ຄຳຖາມທີ 1/5</span>
+            <h2 class="question-title" id="question-title">ຄຳຖາມຈະສະແດງຢູ່ນີ້...</h2>
+            
+            <div class="options-container" id="options-container">
+                </div>
+        </div>
+
+        <div id="result-box" class="result-box hidden">
+            <div class="result-icon"></div>
+            <h2>ຕອບຄຳຖາມຄົບແລ້ວ!</h2>
+            <p>ເຈົ້າຕອບໄດ້ <span id="final-score">0</span> / 5 ຂໍ້!</p>
+            <p class="result-desc">ຄຳຕອບຂອງເຈົ້າຖືກໃຈຂ້ອຍຫຼາຍ  ກົດປຸ່ມດ້ານລຸ່ມເພື່ອສົ່ງຄຳຕອບມາຫາຂ້ອຍໄດ້ເລີຍ!</p>
+
+            <a id="whatsapp-btn" href="#" target="_blank" class="chat-btn whatsapp">
+                <i class="fa-brands fa-whatsapp"></i> ທັກ WhatsApp 
+            </a>
+
+            <a id="messenger-btn" href="https://www.messenger.com/e2ee/t/24328001366834013" target="_blank" class="chat-btn messenger">
+                <i class="fa-brands fa-facebook-messenger"></i> ທັກ Messenger
+            </a>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
